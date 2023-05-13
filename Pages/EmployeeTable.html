@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/EmployeeTable.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../Script/Table.js"></script>
+    <title>Document</title>
+</head>
+<header>
+    <div class="header-container">
+        <img src="../assets/logo.png" alt="logo" class="logo">
+        <div class="text">
+            <span class="emp">EMPLOYEE</span>
+            <span>PAYROLL</span>
+        </div>
+    </div>
+<body>
+    <div class="main-content">
+        <div class="header-content sub-main-content">
+            <div class="emp-details-text">
+                Employee Details
+            </div>
+            <div class="btn">
+                    <button class="searchbtn">
+                        <img src="../assets/search.svg" alt="search">
+                    </button>
+                    <button class="addbtn" onclick="addUser()">
+                        <img src="../assets/add-24px.svg" alt="add employee">
+                        Add User
+                    </button>
+            </div>
+        </div>
+        <div class="table-main">
+            <table id="display" class="table">
+                <tr class="head">
+                    <th class="profileimgcol"></th>
+                    <th class="namecol">NAME</th>
+                    <th class="gendercol">GENDER</th>
+                    <th class="deptcol">DEPARTMENT</th>
+                    <th class="salarycol">SALARY</th>
+                    <th class="datecol">START DATE</th>
+                    <th class="actionscol">ACTIONS</th>
+                </tr>
+                <div class="table-body">
+                    <tbody class="tblbody">
+                      <!--  <tr class="body">
+                            <td class="profileimgcol"><img class="image" src="../assets/women-1.png" alt="Pic1">
+                            </td>
+                            <td class="namecol">Rukmini Biradar</td>
+                            <td class="gendercol">Female</td>
+                            <td class="deptcol">
+                                <div class="dept">
+                                    <span class="dept-name">Sales</span>
+                                    <span class="dept-name">HR</span>
+                                    <span class="dept-name">Finance</span>
+                                </div>
+                            </td>
+                            <td class="salarycol">₹50,000</td>
+                            <td class="datecol">02 Mar 2023</td>
+                            <td class="actionscol action">
+                                <img src="../assets/delete-black-18dp.svg" alt="Delete">
+                                <img src="../assets/icons8-edit-18.svg" alt="Edit">
+                            </td>
+                        </tr> -->
+                    </tbody>
+                </div>
+            </table>
+        </div>
+    </div>
+   
+    
+</body>
+</html>

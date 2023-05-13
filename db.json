@@ -1,0 +1,44 @@
+{
+  "employees": [
+    {
+      "Name": "Rukmini",
+      "ProfileImage": "../assets/women-2.png",
+      "Gender": "Female",
+      "Department": [
+        "Sales",
+        "Engineer"
+      ],
+      "Salary": "25000",
+      "StartDate": "12 Feb 2020",
+      "Note": "fvcfvcxvf",
+      "id": 6
+    },
+    {
+      "Name": "Mahesh",
+      "ProfileImage": "../assets/men-2.png",
+      "Gender": "Male",
+      "Department": [
+        "Sales",
+        "Finance",
+        "Engineer"
+      ],
+      "Salary": "40000",
+      "StartDate": "09 Sep 2018",
+      "Note": "",
+      "id": 7
+    },
+    {
+      "Name": "Reshma",
+      "ProfileImage": "../assets/women-2.png",
+      "Gender": "Female",
+      "Department": [
+        "Sales",
+        "Finance"
+      ],
+      "Salary": "40000",
+      "StartDate": "16 Sep 2016",
+      "Note": "",
+      "id": 8
+    }
+  ]
+}
